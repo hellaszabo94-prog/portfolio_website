@@ -1,0 +1,26 @@
+html{
+    /*Colors*/
+    --color1:#004c4c;
+    --color2:#006666;
+    --color3:#008080;
+    --color4:#66b2b2;
+    --color5:#b2d8d8;
+}
+body{
+    background-color:var(--color5) ;
+
+}
+.nav-pills{
+    background-color: #004c4c;
+}
+.stack{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.stackflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
