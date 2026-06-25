@@ -7,6 +7,24 @@ html{
     --color5:#b2d8d8;
     --color6:#f79f1c;
 }
+.gradient-background {
+  background: linear-gradient(300deg, var(--color6), var(--color2), var(--color1));
+  background-size: 180% 180%;
+  animation: gradient-animation 30s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 body{
     background-color:var(--color4) ;
 
@@ -28,6 +46,7 @@ body{
     text-decoration: none;
     
 }
+
 .stack{
     height: 100px;
     width: 100px;
