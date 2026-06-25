@@ -31,6 +31,7 @@ body{
     background-color:var(--color5) ;
 
 }
+
 /*Navigation*/
 .nav-pills{
     background-color:var(--color1);
@@ -49,6 +50,14 @@ body{
     text-decoration: none;
     
 }
+/*Navigation*/
+
+/*Headline*/
+.headlineDecor{
+    color:var(--color5);
+    margin: 3rem 1rem;
+}
+/*Headline*/
 
 .stack{
     height: 100px;
