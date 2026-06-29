@@ -12,18 +12,17 @@
  <body>
     <header class="d-flex justify-content-center py-3">
         <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-button" >Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-button" >Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-button" >Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-button" >FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-button" >About</a></li>
+            <li class="nav-item"><a href="index.html#home" class="nav-button">Home</a></li>
+            <li class="nav-item"><a href="index.html#aboutMe" class="nav-button">Über mich</a></li>
+            <li class="nav-item"><a href="index.html#skills" class="nav-button">Kenntnisse</a></li>
+            <li class="nav-item"><a href="index.html#myProjects" class="nav-button">Projekte</a></li>
         </ul>
     </header>
     <main>
-        <div class="headline gradient-background">
+        <div class="headline gradient-background" id="home">
             <div class="container col-xxl-8 px-6 ">
                 <div class="row flex-lg-row-reverse align-items-center headlineBox ">
-                    <div class="col-10 col-sm-8 col-lg-6">
+                    <div class="col-10 col-sm-12 col-md-10 col-lg-6">
                         <img src="./ikon/dev_ikon.svg" class="d-block mx-lg-auto img-fluid ">
                     </div>
                     <div class="col-lg-6">
@@ -34,122 +33,105 @@
                 </div>
             </div>
         </div>
-         <div class="aboutmepartone">
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">Über mich </h2>
-                    <p class="lead">Als kreative Full Stack Developerin suche ich eine neue Herausforderung, um moderne Webseiten zu entwickeln.  Ich bringe viel Ausdauer, eine genaue Arbeitsweise und eine gute Problemlösefähigkeit mit. Da ich schnell lerne, denke ich immer lösungsorientiert</p>
+        <div class="mainLine">
+            <div class="aboutmepartone" id="aboutMe">
+                <div class="row featurette">
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <h2 class="featurette-heading fw-normal lh-1">Über mich </h2>
+                        <p class="lead textDec">Ich hatte schon immer eine Schwäche für logische Systeme und präzises Arbeiten – das hat mich anfangs in die Welt des Rechnungswesens und des SAP-Datenmanagements geführt. Meine wahre Berufung und kreative Freiheit habe ich jedoch in der Webentwicklung gefunden.  Als Full Stack Developerin liebe ich es, Dinge von Grund auf neu zu erschaffen. Beim Frontend-Design leiten mich UI/UX-Prinzipien und absolute Responsivität; beim Backend mit PHP und MySQL sorgt mein analytischer Hintergrund für fehlerfreie Logik. Ich wohne in Linz, meine Muttersprache ist Ungarisch, aber ich kommuniziere auch sicher auf Deutsch und Englisch. Ich bin bereit, als motivierte Entwicklerin mein technisches Wissen und meine lösungsorientierte Arbeitsweise in ein innovatives Team einzubringen. </p>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                        <img src="pictures/picture2.jpg" class="profilePic "/>
+                    </div>
                 </div>
-                <div class="col-md-5">
-                    <svg aria-label="Placeholder: 500x500" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
-                        <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                    </svg>
+            </div>
+            <div class="mySkills" id="skills">
+                <h2 class="mainHeadline">Kenntnisse</h2>
+                <div class="mySkillsGroup ">
+                    <div class="mySkillsItem">
+                        <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Logo">
+                        <h3 class="mySkillsName">HTML</h3>
+                    </div>
+                    <div class="mySkillsItem">
+                        <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Logo">
+                        <h3 class="mySkillsName">CSS</h3>
+                    </div>
+                    <div class="mySkillsItem">
+                        <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap Logo">
+                        <h3 class="mySkillsName">Bootstrap</h3>
+                    </div>
+                    <div class="mySkillsItem">
+                        <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo">
+                        <h3 class="mySkillsName">JavaScript</h3>
+                    </div>
+                    <div class="mySkillsItem">
+                        <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" alt="jQuery Logo">
+                        <h3 class="mySkillsName">jQuery</h3>
+                    </div>
+                    <div class="mySkillsItem">
+                        <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo">
+                        <h3 class="mySkillsName">GitHub</h3>
+                    </div>
+                    <div class="mySkillsItem">
+                        <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/npm/simple-icons@v14/icons/gnubash.svg" alt="Node.js Logo">
+                        <h3 class="mySkillsName">Bash <br/>(Windows/Linux)</h3>
+                    </div>
+                    <div class="mySkillsItem">
+                        <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP Logo">
+                        <h3 class="mySkillsName">PHP</h3>
+                    </div>
+                    <div class="mySkillsItem">
+                        <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL Logo">
+                        <h3 class="mySkillsName">MySQL</h3>
+                    </div>
+                    <div class="mySkillsItem">
+                        <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="SQL Logo">
+                        <h3 class="mySkillsName">SQL</h3>
+                    </div>
+                    <div class="mySkillsItem">
+                        <img class="mySkillsIkon" src="./ikon/rwd_ikon.svg" alt="Responsive Design Symbol">
+                        <h3 class="mySkillsName">Responsive Webdesign</h3>
+                    </div>
+                    <div class="mySkillsItem">
+                        <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="UI UX Logo">
+                        <h3 class="mySkillsName">UI/UX</h3>
+                    </div> 
+                </div>     
+            <h2 class="mainHeadline" id="myProjects">Projekte</h2>
+            <div class="projects">
+                <div class="row featurette">
+                    <div class="col-lg-7 col-md-12 col-sm-12 textDec">
+                        <h2 class="featurette-heading fw-normal lh-1">Travel to Seychelle</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                       <img src="./pictures/projekt1.png" class="projectPic"/>
+                    </div>
+                </div>
+            </div>
+            <div class="projects">
+                <div class="row featurette">
+                    <div class="col-lg-7 col-md-12 col-sm-12 order-md-2 textDec">
+                        <h2 class="featurette-heading fw-normal lh-1">Travelmanager</h2> 
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p> 
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12 order-md-1">
+                       <img src="./pictures/projekt2.jpg" class="projectPic"/>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="mySkills">
-            <h2 class="mySkillsHeadline">Skills</h2>
-            <div class="mySkillsGroup ">
-                <div class="mySkillsItem">
-                    <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Logo">
-                    <h3 class="mySkillsName">HTML</h3>
-                </div>
-                <div class="mySkillsItem">
-                    <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Logo">
-                    <h3 class="mySkillsName">CSS</h3>
-                </div>
-                <div class="mySkillsItem">
-                    <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap Logo">
-                    <h3 class="mySkillsName">Bootstrap</h3>
-                </div>
-                <div class="mySkillsItem">
-                    <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo">
-                    <h3 class="mySkillsName">JavaScript</h3>
-                </div>
-                <div class="mySkillsItem">
-                    <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" alt="jQuery Logo">
-                    <h3 class="mySkillsName">jQuery</h3>
-                </div>
-                <div class="mySkillsItem">
-                    <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo">
-                    <h3 class="mySkillsName">GitHub</h3>
-                </div>
-                <div class="mySkillsItem">
-                    <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/npm/simple-icons@v14/icons/gnubash.svg" alt="Node.js Logo">
-                    <h3 class="mySkillsName">Bash <br/>(Windows/Linux)</h3>
-                </div>
-                <div class="mySkillsItem">
-                    <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP Logo">
-                    <h3 class="mySkillsName">PHP</h3>
-                </div>
-                <div class="mySkillsItem">
-                    <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL Logo">
-                    <h3 class="mySkillsName">MySQL</h3>
-                </div>
-                <div class="mySkillsItem">
-                    <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="SQL Logo">
-                    <h3 class="mySkillsName">SQL</h3>
-                </div>
-                <div class="mySkillsItem">
-                    <img class="mySkillsIkon" src="./ikon/rwd_ikon.svg" alt="Responsive Design Symbol">
-                    <h3 class="mySkillsName">Responsive Webdesign</h3>
-                </div>
-                <div class="mySkillsItem">
-                    <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="UI UX Logo">
-                    <h3 class="mySkillsName">UI/UX</h3>
-                </div> 
-            </div>     
-        <hr class="featurette-divider">
-        <div class="">
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">First featurette heading. 
-                        <span class="text-body-secondary">It’ll blow your mind.</span>
-                    </h2>
-                    <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-                </div>
-                <div class="col-md-5">
-                    <svg aria-label="Placeholder: 500x500" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
-                        <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                    </svg>
-                </div>
-            </div>
-        </div>
-        <hr class="featurette-divider">
-        <div class="aboutmeparttwo">
-            <div class="row featurette">
-                <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. 
-                        <span class="text-body-secondary">See for yourself.</span>
-                    </h2> 
-                    <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p> 
-                </div>
-                <div class="col-md-5 order-md-1">
-                    <svg aria-label="Placeholder: 500x500" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
-                        <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                    </svg>
-                </div>
-            </div>
-        </div>
-
     </main>
-    <footer class="gradient-background">
+    <footer class="gradient-background ">
         <div class="container">
-            <footer class="py-3 my-4">
+            <footer class="py-3 my-4 ">
                 <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                    <li class="nav-item"><a href="index.html#home" class="nav-button">Home</a></li>
+                    <li class="nav-item"><a href="index.html#aboutMe" class="nav-button">Über mich</a></li>
+                    <li class="nav-item"><a href="index.html#skills" class="nav-button">Kenntnisse</a></li>
+                    <li class="nav-item"><a href="index.html#myProjects" class="nav-button">Projekte</a></li>
                 </ul>
-                <p class="text-center text-body-secondary">© 2025 Company, Inc</p>
+                <p class="text-center textDec">© 2026 Hella Haraszti-Szabo</p>
             </footer>
         </div>
     </footer>    
