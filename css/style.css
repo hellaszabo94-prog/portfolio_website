@@ -201,6 +201,13 @@ body{
 .projects{
     margin: 5rem;
 }
+.projectLink{
+    text-decoration: none;
+    color:var(--color6);
+}
+.projectLink:hover{
+    text-shadow: 1px 1px 1px var(--color5) ;
+}
 .projectstext{
     padding: 2rem;
 }
@@ -216,6 +223,7 @@ body{
     border:5px solid var(--color5);
     border-radius: 50px;
 }
+
 /*Projekts*/
 
 /*Footer*/
