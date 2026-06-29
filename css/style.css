@@ -201,10 +201,14 @@ body{
 .projects{
     margin: 5rem;
 }
+.projectstext{
+    padding: 2rem;
+}
 .projects h2{
     margin-bottom: 3rem;
     margin-top: 5rem;
 }
+
 .projectPic{
     height: 450px;
     width: 500px;
@@ -220,3 +224,13 @@ footer > .container{
     padding: 3rem 1rem;
 }
 /*Footer*/
+/*RWD*/
+@media (max-width:1023px) {
+    .nav-pills{
+        width:100%;
+    }
+    .nav-item{
+        width:22%;
+    }
+}
+/*RWD*/
