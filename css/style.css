@@ -7,10 +7,12 @@ html{
     --color5:#b2d8d8;
     --color6:#f79f1c;
     /*Colors*/
+    height: 100vh;
+    width: auto;
 }
 
 .gradient-background {
-  background: linear-gradient(300deg, var(--color4), var(--color2), var(--color1));
+  background: linear-gradient(300deg, var(--color4), var(--color3), var(--color1));
   background-size: 180% 180%;
   animation: gradient-animation 30s ease infinite;
 }
@@ -28,11 +30,12 @@ html{
 }
 
 body{
-    background-color:var(--color5) ;
+    background-color:var(--color1) ;
 
 }
 
 /*Navigation*/
+
 .nav-pills{
     background-color:var(--color1);
     border: 2px solid var(--color5);
@@ -92,3 +95,8 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
 }
+/*Footer*/
+footer > .container{
+    padding: 3rem 1rem;
+}
+/*Footer*/
