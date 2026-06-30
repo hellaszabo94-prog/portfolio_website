@@ -201,15 +201,12 @@ body{
 .projects{
     margin: 5rem;
 }
-.projectLink{
-    text-decoration: none;
-    color:var(--color6);
-}
-.projectLink:hover{
-    text-shadow: 1px 1px 1px var(--color5) ;
-}
+
 .projectstext{
     padding: 2rem;
+}
+.projectstext > p{
+    margin:2rem 0;
 }
 .projects h2{
     margin-bottom: 3rem;
@@ -223,7 +220,28 @@ body{
     border:5px solid var(--color5);
     border-radius: 50px;
 }
-
+.live-demo-btn{
+    border: 2px solid var(--color3);
+    border-radius: 50px;
+    color: var(--color5);
+    text-decoration: none;
+    padding: 1rem;
+    margin:2rem 1rem 2rem 0rem;
+}
+.live-demo-btn:hover{
+   color:var(--color6) ;
+}
+.github-code-btn{
+    border: 2px solid var(--color3);
+    border-radius: 50px;
+    color: var(--color5);
+    text-decoration: none;
+    padding: 1rem;
+    margin:2rem 0rem 2rem 1rem;
+}
+.github-code-btn:hover{
+   color:var(--color6) ;
+}
 /*Projekts*/
 
 /*Footer*/
