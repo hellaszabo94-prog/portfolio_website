@@ -247,8 +247,8 @@ body{
     margin:2rem 1rem 2rem 0rem;
 }
 .live-demo-btn:hover{
-   color:var(--color6) ;
-   font-weight: bold;
+   color: var(--color6);
+   text-shadow: 1px 1px 10px var(--color6) ;
 }
 .github-code-btn{
     border: 2px solid var(--color3);
@@ -259,8 +259,8 @@ body{
     margin:2rem 0rem 2rem 1rem;
 }
 .github-code-btn:hover{
-   color:var(--color6) ;
-   font-weight: bold;
+  color: var(--color6);
+   text-shadow: 1px 1px 10px var(--color6) ;
 }
 /*Projekts*/
 
