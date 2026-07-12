@@ -314,11 +314,19 @@ header{
     height: 5rem;
     
 }
-
+.nav-item{
+    height: 2.5rem;
+    width: auto;
+   
+}
+.nav-button{
+    font-size: 2rem;
+}
 .mobile > ul.nav {
 	display:none;
     margin: 5px 0px;
     border-radius: 0px;
+  
 }
 .mobile > ul.nav-pills.visible {
     position: absolute;
@@ -329,6 +337,7 @@ header{
     align-items: center;
     border:none;
     box-shadow: none;
+    height: 20rem;
 
 }
 main{
