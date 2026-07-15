@@ -291,8 +291,7 @@ body{
 }
 .contakt-item > a:hover{
     color:var(--color6) ;
-    font-weight: bold;
-    
+    text-shadow: 1px 1px 10px var(--color6) ;
 }
 /*Contact*/
 
