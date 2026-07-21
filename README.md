@@ -18,12 +18,6 @@ This project is a modern and responsive portfolio website that I created to pres
 
 During the development of the website, I focused on creating a clear, user-friendly layout that displays correctly on different screen sizes.
 
-Live Demo
-
-The website is available at the following link:
-
-Open Portfolio Website
-
 Website Content
 
 The portfolio website includes the following main sections:
@@ -75,12 +69,6 @@ Deutsch
 Dieses Projekt ist eine moderne und responsive Portfolio-Webseite, die ich erstellt habe, um meinen beruflichen Hintergrund, meine technischen Kenntnisse und meine bisherigen Projekte zu präsentieren.
 
 Bei der Entwicklung der Webseite war es mir wichtig, eine übersichtliche und benutzerfreundliche Gestaltung zu erstellen, die auf verschiedenen Bildschirmgrößen korrekt dargestellt wird.
-
-Live-Demo
-
-Die Webseite ist unter folgendem Link verfügbar:
-
-Portfolio-Webseite öffnen
 
 Inhalte der Webseite
 
