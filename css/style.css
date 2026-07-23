@@ -122,6 +122,11 @@ body{
     font-size: 3rem;
    
 }
+.headline img {
+    height: auto;
+    width: 100%;
+    max-width: 480px;
+}
 
 /*Headline*/
 
@@ -149,9 +154,11 @@ body{
     font-size: 20px;
 }
 .profilePic {
-    height: 500px;
-    width: 430px;
-    margin: 5rem 1rem 5rem 3rem;
+    display: block;
+    height: auto;
+    width: 100%;
+    max-width: 430px;
+    margin: 5rem auto;
     border:5px solid var(--color5);
     border-radius: 50px;
    
@@ -232,11 +239,14 @@ body{
 }
 
 .projectPic{
+    display: block;
     height: 450px;
-    width: 500px;
-    margin: 3rem 1rem 4rem 1rem;
+    width: 100%;
+    max-width:500px;
+    margin: 3rem auto 1rem;
     border:5px solid var(--color5);
     border-radius: 50px;
+   
 }
 .live-demo-btn{
     border: 2px solid var(--color3);
@@ -300,6 +310,7 @@ body{
 footer > .container{
     padding: 3rem 1rem;
 }
+
 /*Footer*/
 /*RWD*/
 @media (max-width:1023px) {
@@ -343,6 +354,19 @@ main{
     position: relative;
     
 }
+
+}
+
+@media (max-width: 767px)  {
+    .headlineName{
+        font-size: 3rem;
+    }
+    .headlineText{
+        font-size: 2rem;
+    }
+    .projectPic {
+        height: 250px;
+    }
 
 }
 
