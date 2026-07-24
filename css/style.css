@@ -44,6 +44,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-size: 20px;
 }
 
 
@@ -151,7 +152,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    
 }
 .profilePic {
     display: block;
@@ -329,9 +330,7 @@ header{
     width: auto;
    
 }
-.nav-button{
-    font-size: 2rem;
-}
+
 .mobile > ul.nav {
 	display:none;
     margin: 5px 0px;
@@ -367,7 +366,42 @@ main{
     .projectPic {
         height: 250px;
     }
+    .textDec {
+        font-size: 17px;
+        
+    }
+    .aboutmepartone{
+        margin: 2rem;
+    }
+    .mainHeadline{
+        margin: 1rem;
+    }
+    
+    .projects{
+        margin: 2rem;
+    }
+    .projectstext{
+        padding: 1rem;
+    }
+    .live-demo-btn{
+        display: block;
+        margin-right: 0;
+    }
+    .github-code-btn{
+        display: block;
+        margin-left: 0;
+    }
+    .contact > p{
+        margin: 2rem;
+    }
+    .contakt-item {
+        margin: 1rem;
+    }
+    .contakt-container{
+        margin-bottom: 2rem;
+    }
 
 }
+
 
 /*RWD*/
