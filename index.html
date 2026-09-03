@@ -16,11 +16,11 @@
         <div class="mobile">
             <button type="button" class="navRwd">Nav in/out</button>
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="index.html#home" class="nav-button">Home</a></li>
-                <li class="nav-item"><a href="index.html#aboutMe" class="nav-button">Über mich</a></li>
-                <li class="nav-item"><a href="index.html#skills" class="nav-button">Kenntnisse</a></li>
-                <li class="nav-item"><a href="index.html#myProjects" class="nav-button">Projekte</a></li>
-                <li class="nav-item"><a href="index.html#contact" class="nav-button">Kontakt</a></li>
+                <li class="nav-item"><a href="index.html#home" class="nav-button" data-i18n="nav.home">Home</a></li>
+                <li class="nav-item"><a href="index.html#aboutMe" class="nav-button" data-i18n="nav.about">Über mich</a></li>
+                <li class="nav-item"><a href="index.html#skills" class="nav-button" data-i18n="nav.skills">Kenntnisse</a></li>
+                <li class="nav-item"><a href="index.html#myProjects" class="nav-button" data-i18n="nav.projects">Projekte</a></li>
+                <li class="nav-item"><a href="index.html#contact" class="nav-button" data-i18n="nav.contact">Kontakt</a></li>
                 <li class="nav-item">
                     <button type="button" class="lang-btn active" data-lang="de">DE</button>
                     <span class="language-divider">|</span>
@@ -47,8 +47,8 @@
             <div class="aboutmepartone" id="aboutMe">
                 <div class="row featurette">
                     <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="featurette-heading fw-normal lh-1">Über mich </h2>
-                        <p class="lead textDec">Ich hatte schon immer eine Schwäche für logische Systeme und präzises Arbeiten – das hat mich anfangs in die Welt des Rechnungswesens und des SAP-Datenmanagements geführt. Meine wahre Berufung und kreative Freiheit habe ich jedoch in der Webentwicklung gefunden.  Als Full Stack Developerin liebe ich es, Dinge von Grund auf neu zu erschaffen. Beim Frontend-Design leiten mich UI/UX-Prinzipien und absolute Responsivität; beim Backend mit PHP und MySQL sorgt mein analytischer Hintergrund für fehlerfreie Logik. Ich wohne in Linz, meine Muttersprache ist Ungarisch, aber ich kommuniziere auch sicher auf Deutsch und Englisch. Ich bin bereit, als motivierte Entwicklerin mein technisches Wissen und meine lösungsorientierte Arbeitsweise in ein innovatives Team einzubringen. </p>
+                        <h2 class="featurette-heading fw-normal lh-1" data-i18n="about.title">Über mich </h2>
+                        <p class="lead textDec" data-i18n="about.text">Ich hatte schon immer eine Schwäche für logische Systeme und präzises Arbeiten – das hat mich anfangs in die Welt des Rechnungswesens und des SAP-Datenmanagements geführt. Meine wahre Berufung und kreative Freiheit habe ich jedoch in der Webentwicklung gefunden.  Als Full Stack Developerin liebe ich es, Dinge von Grund auf neu zu erschaffen. Beim Frontend-Design leiten mich UI/UX-Prinzipien und absolute Responsivität; beim Backend mit PHP und MySQL sorgt mein analytischer Hintergrund für fehlerfreie Logik. Ich wohne in Linz, meine Muttersprache ist Ungarisch, aber ich kommuniziere auch sicher auf Deutsch und Englisch. Ich bin bereit, als motivierte Entwicklerin mein technisches Wissen und meine lösungsorientierte Arbeitsweise in ein innovatives Team einzubringen. </p>
                     </div>
                     <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <img src="pictures/picture2.jpg" class="profilePic "/>
@@ -56,7 +56,7 @@
                 </div>
             </div>
             <div class="mySkills" id="skills">
-                <h2 class="mainHeadline">Kenntnisse</h2>
+                <h2 class="mainHeadline" data-i18n="skills.title">Kenntnisse</h2>
                 <div class="mySkillsGroup ">
                     <div class="mySkillsItem">
                         <img class="mySkillsIkon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Logo">
@@ -111,18 +111,18 @@
                         <h3 class="mySkillsName">UI/UX</h3>
                     </div> 
                 </div>     
-            <h2 class="mainHeadline" id="myProjects">Projekte</h2>
+            <h2 class="mainHeadline" id="myProjects" data-i18n="projects.title">Projekte</h2>
                 <div class="projects">
                     <div class="row featurette">
                         <div class="col-xxl-7 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 order-xxl-2 order-xl-1 order-lg-1 order-md-1 order-sm-1 order-xs-1 textDec projectstext">
                             <h2 class="featurette-heading fw-normal lh-1">Travel Bucket List Manager</h2>
-                            <a href="https://travelmanager.infinityfreeapp.com/" target="_blank" class="live-demo-btn gradient-background">
+                            <a href="https://travelmanager.infinityfreeapp.com/" target="_blank" class="live-demo-btn gradient-background" data-i18n="buttons.liveDemo">
                             Live-Demo ansehen
                             </a> 
-                            <a href="https://github.com/hellaszabo94-prog/travel_bucket_list_manager" target="_blank" style="margin:2rem 0rem;" class="github-code-btn gradient-background">
+                            <a href="https://github.com/hellaszabo94-prog/travel_bucket_list_manager" target="_blank" style="margin:2rem 0rem;" class="github-code-btn gradient-background" data-i18n="buttons.github">
                             Code auf GitHub
                             </a>
-                            <p class="lead textDec">Eine responsive Full-Stack-Webanwendung zur Verwaltung persönlicher Reiseziele, entwickelt mit PHP, MySQL, JavaScript und Tailwind CSS. Die Anwendung bietet Benutzerregistrierung und Login, benutzerspezifische Reiseziele, Statusverwaltung, Suchfunktion sowie das Hochladen, Ersetzen und Löschen von Bildern.</p> 
+                            <p class="lead textDec" data-i18n="projects.bucketList">Eine responsive Full-Stack-Webanwendung zur Verwaltung persönlicher Reiseziele, entwickelt mit PHP, MySQL, JavaScript und Tailwind CSS. Die Anwendung bietet Benutzerregistrierung und Login, benutzerspezifische Reiseziele, Statusverwaltung, Suchfunktion sowie das Hochladen, Ersetzen und Löschen von Bildern.</p> 
                         </div>
                         <div class="col-xxl-5 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 order-xxl-1 order-xl-2 order-lg-2 order-md-2 order-sm-2 order-xs-2">
                         <img src="./pictures/projekt3.png" class="projectPic"/>
@@ -133,10 +133,10 @@
                     <div class="row featurette">
                         <div class="col-xxl-7 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 textDec projectstext">
                             <h2 class="featurette-heading fw-normal lh-1">Memory-Spiel</h2>
-                            <a href="https://hellaszabo94-prog.github.io/memory_game/" target="_blank" class="live-demo-btn gradient-background">
+                            <a href="https://hellaszabo94-prog.github.io/memory_game/" target="_blank" class="live-demo-btn gradient-background" data-i18n="buttons.liveDemo">
                             Live-Demo ansehen
                             </a>
-                            <a href="https://github.com/hellaszabo94-prog/memory_game" target="_blank" class="github-code-btn gradient-background">
+                            <a href="https://github.com/hellaszabo94-prog/memory_game" target="_blank" class="github-code-btn gradient-background" data-i18n="buttons.github">
                             Code auf GitHub
                             </a>
                             <p class="lead textDec">Ein browserbasiertes Memory-Spiel, das mit HTML, CSS und Vanilla JavaScript entwickelt wurde. Ziel des Spiels ist es, alle zusammengehörenden Kartenpaare zu finden, während das Programm das zufällige Mischen der Karten, die Überprüfung der Paare sowie das Spielende verwaltet. Bei der Entwicklung dieses Projekts lag der Schwerpunkt auf der DOM-Manipulation, der Ereignisbehandlung und der Verwaltung des Spielzustands mit JavaScript.</p>
@@ -150,10 +150,10 @@
                     <div class="row featurette">
                         <div class="col-xxl-7 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 order-xxl-2 order-xl-1 order-lg-1 order-md-1 order-sm-1 order-xs-1 textDec projectstext">
                             <h2 class="featurette-heading fw-normal lh-1">Travel to Seychelles</h2> 
-                            <a href="https://hellaszabo94-prog.github.io/travel_to_Seychelle/" target="_blank" class="live-demo-btn gradient-background">
+                            <a href="https://hellaszabo94-prog.github.io/travel_to_Seychelle/" target="_blank" class="live-demo-btn gradient-background" data-i18n="buttons.liveDemo">
                             Live-Demo ansehen
                             </a> 
-                            <a href="https://github.com/hellaszabo94-prog/travel_to_Seychelle" target="_blank" class="github-code-btn gradient-background">
+                            <a href="https://github.com/hellaszabo94-prog/travel_to_Seychelle" target="_blank" class="github-code-btn gradient-background" data-i18n="buttons.github">
                             Code auf GitHub
                             </a>
                             <p class="lead textDec">Bei diesem Projekt habe ich eine statische, responsive Webseite für ein fiktives Reisebüro erstellt. Die Webseite besteht aus mehreren Unterseiten wie Startseite, Dienstleistungen, Inseln, Reiseplan, Galerie und Kontakt. Besonders geübt habe ich dabei den strukturierten Aufbau mit HTML, die Gestaltung mit CSS, responsive Layouts für verschiedene Bildschirmgrößen sowie einfache JavaScript-Funktionen für die Navigation und die Bildergalerie.</p>
@@ -168,7 +168,7 @@
                     <div class="row featurette">
                         <div class="col-xxl-7 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 textDec projectstext">
                             <h2 class="featurette-heading fw-normal lh-1">Portfolio Website</h2>
-                            <a href="https://github.com/hellaszabo94-prog/portfolio_website" target="_blank" style="margin:2rem 0rem;" class="github-code-btn gradient-background">
+                            <a href="https://github.com/hellaszabo94-prog/portfolio_website" target="_blank" style="margin:2rem 0rem;" class="github-code-btn gradient-background" data-i18n="buttons.github">
                             Code auf GitHub
                             </a>
                             <p class="lead textDec">In diesem Projekt habe ich eine moderne und responsive Portfolio-Webseite erstellt, auf der ich meinen beruflichen Hintergrund, meine technischen Kenntnisse und einige meiner bisherigen Projekte präsentieren kann. Für die Umsetzung habe ich HTML5, CSS3 und Bootstrap verwendet. Dabei war mir wichtig, dass die Webseite übersichtlich, benutzerfreundlich und auf verschiedenen Geräten gut dargestellt wird.</p>
@@ -179,8 +179,8 @@
                     </div>
                 </div>
             <div class="contact" id="contact">
-                <h2 class="mainHeadline">Kontakt</h2>
-                <p class="textDec">Habe ich Ihr Interesse geweckt? Ich freue mich auf Ihre Kontaktaufnahme!</p>
+                <h2 class="mainHeadline" data-i18n="contact.title">Kontakt</h2>
+                <p class="textDec" data-i18n="contact.text">Habe ich Ihr Interesse geweckt? Ich freue mich auf Ihre Kontaktaufnahme!</p>
                 <div class="contakt-container">
                     <div class="contakt-item">
                         <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/envelope.svg" alt="Email"/>
