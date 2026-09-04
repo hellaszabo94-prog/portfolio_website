@@ -56,6 +56,28 @@ const translations = {
             "projects.portfolio": "In this project, I created a modern and responsive portfolio website to present my professional background, technical skills, and some of my previous projects. I used HTML5, CSS3, Bootstrap, and JavaScript to build the website. The site also includes a German and English language switcher, allowing visitors to easily change the displayed language. My main goal was to create a clear, user-friendly design that works well on different devices.",
 
             "contact.title": "Contact",
-            "contact.text": "If you would like to get in touch, I would be happy to hear from you"
+            "contact.text": "If you would like to get in touch, I would be happy to hear from you!"
         }
 };
+//function to switch the language
+function setLanguage(language) {
+    const elements = document.querySelectorAll("[data-i18n]");
+
+    elements.forEach((htmlElement) => {
+        const key = htmlElement.dataset.i18n;
+        const selectedLanguage = translations[language];
+
+        if (selectedLanguage) {
+            const translation = selectedLanguage[key];
+
+            if (translation !== undefined) {
+                htmlElement.textContent = translation;
+            }
+        }
+    });
+
+    document.documentElement.lang = language;
+}
+
+
+setLanguage("en");
