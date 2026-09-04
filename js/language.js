@@ -80,4 +80,3 @@ function setLanguage(language) {
 }
 
 
-setLanguage("en");
