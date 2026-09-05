@@ -77,6 +77,14 @@ function setLanguage(language) {
     });
 
     document.documentElement.lang = language;
+    
+    localStorage.setItem("portfolioLanguage", language);
+
+    document.querySelectorAll(".lang-btn").forEach((button) => {
+        button.classList.toggle(
+            "active",
+            button.dataset.lang === language
+        );
 }
 
 
