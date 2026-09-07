@@ -85,6 +85,16 @@ function setLanguage(language) {
             "active",
             button.dataset.lang === language
         );
+    });
 }
 
+document.querySelectorAll(".lang-btn").forEach((button) => {
+    button.addEventListener("click", () => {
+        setLanguage(button.dataset.lang);
+    });
+});
 
+const savedLanguage =
+    localStorage.getItem("portfolioLanguage") || "de";
+
+setLanguage(savedLanguage);
