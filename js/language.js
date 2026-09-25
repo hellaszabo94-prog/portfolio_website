@@ -4,6 +4,7 @@ const translations = {
             "nav.about": "Über mich",
             "nav.skills": "Kenntnisse",
             "nav.projects": "Projekte",
+            "nav.aktuell": "Aktuell",
             "nav.contact": "Kontakt",
 
             "about.title": "Über mich",
@@ -34,6 +35,7 @@ const translations = {
             "nav.about": "About me",
             "nav.skills": "Skills",
             "nav.projects": "Projects",
+            "nav.aktuell": "Current",
             "nav.contact": "Contact",
 
             "about.title": "About me",
