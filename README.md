@@ -92,27 +92,6 @@ The selected language is also stored in the browser using `localStorage`, so the
 
 ---
 
-## Project Structure
-
-portfolio_website/
-│
-├── css/
-│   └── style.css
-│
-├── ikon/
-│
-├── js/
-│   ├── nav.js
-│   └── language.js
-│
-├── pictures/
-│
-├── index.html
-└── README.md
-
-
----
-
 ## Main Sections
 
 The portfolio contains the following main sections:
@@ -226,27 +205,6 @@ Die ausgewählte Sprache wird außerdem mit `localStorage` im Browser gespeicher
 - Git
 - GitHub
 - GitHub Pages
-
----
-
-## Projektstruktur
-
-portfolio_website/
-│
-├── css/
-│   └── style.css
-│
-├── ikon/
-│
-├── js/
-│   ├── nav.js
-│   └── language.js
-│
-├── pictures/
-│
-├── index.html
-└── README.md
-
 
 ---
 
