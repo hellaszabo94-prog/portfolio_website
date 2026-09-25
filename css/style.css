@@ -307,6 +307,15 @@ body{
    text-shadow: 1px 1px 10px var(--color6) ;
 }
 /*Projekts*/
+.headlineTextAktuell{
+    color:var(--color5);
+    margin: 3rem 1rem 5rem 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
 
 /*Contact*/
 .contact > p{

@@ -26,6 +26,8 @@ const translations = {
 
             "projects.portfolio": "In diesem Projekt habe ich eine moderne und responsive Portfolio-Webseite erstellt, auf der ich meinen beruflichen Hintergrund, meine technischen Kenntnisse und einige meiner bisherigen Projekte präsentieren kann. Für die Umsetzung habe ich HTML5, CSS3, Bootstrap und JavaScript verwendet. Die Webseite bietet außerdem eine Sprachumschaltung zwischen Deutsch und Englisch, sodass Besucher die Sprache einfach wechseln können. Dabei war mir wichtig, dass die Webseite übersichtlich, benutzerfreundlich und auf verschiedenen Geräten gut dargestellt wird.",
 
+            "aktuell.title": "Aktuell",
+
             "contact.title": "Kontakt",
             "contact.text": "Habe ich Ihr Interesse geweckt? Ich freue mich auf Ihre Kontaktaufnahme!"
        },
@@ -56,6 +58,8 @@ const translations = {
             "projects.seychelles": "In this project, I created a static and responsive website for a fictional travel agency. The website includes several pages such as Home, Services, Islands, Travel Plan, Gallery, and Contact. During this project, I especially practised building a clear structure with HTML, styling with CSS, creating responsive layouts for different screen sizes, and adding simple JavaScript functions for the navigation and image gallery.",
 
             "projects.portfolio": "In this project, I created a modern and responsive portfolio website to present my professional background, technical skills, and some of my previous projects. I used HTML5, CSS3, Bootstrap, and JavaScript to build the website. The site also includes a German and English language switcher, allowing visitors to easily change the displayed language. My main goal was to create a clear, user-friendly design that works well on different devices.",
+
+            "aktuell.title": "Current",
 
             "contact.title": "Contact",
             "contact.text": "If you would like to get in touch, I would be happy to hear from you!"
