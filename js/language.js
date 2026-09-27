@@ -27,6 +27,9 @@ const translations = {
             "projects.portfolio": "In diesem Projekt habe ich eine moderne und responsive Portfolio-Webseite erstellt, auf der ich meinen beruflichen Hintergrund, meine technischen Kenntnisse und einige meiner bisherigen Projekte präsentieren kann. Für die Umsetzung habe ich HTML5, CSS3, Bootstrap und JavaScript verwendet. Die Webseite bietet außerdem eine Sprachumschaltung zwischen Deutsch und Englisch, sodass Besucher die Sprache einfach wechseln können. Dabei war mir wichtig, dass die Webseite übersichtlich, benutzerfreundlich und auf verschiedenen Geräten gut dargestellt wird.",
 
             "aktuell.title": "Aktuell",
+            "aktuell.headline":"Was ich gerade lerne und entwickle",
+            "aktuell.text":"Softwareentwicklung bedeutet für mich, ständig dazuzulernen und sich weiterzuentwickeln. Neue Technologien, neue Herausforderungen und neue Lösungswege gehören für mich zu diesem Beruf dazu. Deshalb erweitere ich meine Kenntnisse regelmäßig durch eigene Projekte und praktische Übungen.",
+            "aktuellProjekt.text":"Aktuell entwickle ich eine Full-Stack-Anwendung zur Planung von Rezepten und Mahlzeiten. Nutzer:innen sollen Rezepte suchen und speichern, ihre Woche planen und daraus eine Einkaufsliste erstellen können. Mit diesem Projekt vertiefe ich Schritt für Schritt meine Kenntnisse in React, Node.js, Express und PostgreSQL. Dabei lerne ich insbesondere, wie Frontend, Backend, REST-API und Datenbank miteinander kommunizieren und wie eine größere Webanwendung strukturiert aufgebaut wird.",    
 
             "contact.title": "Kontakt",
             "contact.text": "Habe ich Ihr Interesse geweckt? Ich freue mich auf Ihre Kontaktaufnahme!"
@@ -60,6 +63,9 @@ const translations = {
             "projects.portfolio": "In this project, I created a modern and responsive portfolio website to present my professional background, technical skills, and some of my previous projects. I used HTML5, CSS3, Bootstrap, and JavaScript to build the website. The site also includes a German and English language switcher, allowing visitors to easily change the displayed language. My main goal was to create a clear, user-friendly design that works well on different devices.",
 
             "aktuell.title": "Current",
+            "aktuell.headline":"What I'm Learning & Building",
+            "aktuell.text":"For me, software development means continuously learning and improving. New technologies, new challenges and new ways of solving problems are a natural part of this field. That is why I regularly expand my skills through personal projects and practical exercises.",
+            "aktuellProjekt.text":"I am currently developing a full-stack application for planning recipes and meals. Users will be able to search and save recipes, plan their week and create a shopping list based on their meal plan. Through this project, I am gradually improving my skills in React, Node.js, Express and PostgreSQL. I am especially learning how the frontend, backend, REST API and database communicate with each other and how a larger web application can be structured.", 
 
             "contact.title": "Contact",
             "contact.text": "If you would like to get in touch, I would be happy to hear from you!"
