@@ -58,8 +58,8 @@ body{
 }
 .nav-item{
     height: 30px;
-    width: 100px;
-    margin: 10px;
+    width: 140px;
+    margin: 10px 5px;
     text-align: center;
 }
 .nav-button{
@@ -368,7 +368,7 @@ footer > .container{
 
 /*Footer*/
 /*RWD*/
-@media (max-width:1023px) {
+@media (max-width:1080px) {
 header{
     position: relative;
     z-index: 100;
